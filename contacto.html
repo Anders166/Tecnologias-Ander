@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologías Ander | Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/Logo.png" type="image/x-icon">
+</head>
+<body>
+    <header class="site-header">
+        <div class="contenedor-header">
+            <a href="index.html" class="brand">
+                <img class="logo" src="img/Logo.png" alt="Logo Tecnologías Ander">
+            </a>
+            <nav class="menu-nav" aria-label="Menú principal">
+                <a href="index.html" class="nav-link">Principal</a>
+                <a href="productos.html" class="nav-link">Productos</a>
+                <a href="servicios.html" class="nav-link">Servicios</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="contacto.html" class="nav-link active">Contacto</a>
+            </nav>
+            <div class="header-actions">
+                <a href="login.html" class="btn btn-secondary">Iniciar sesión</a>
+                <a href="signup.html" class="btn btn-primary">Registrarse</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <section class="container">
+            <h1 class="page-title">Contáctanos</h1>
+            <p class="page-intro">Envíanos tu consulta y con gusto te ayudaremos con productos, soporte o garantías.</p>
+
+            <div class="contact-grid">
+                <div class="section-card contact-details">
+                    <h2>Información de contacto</h2>
+                    <p>Correo: contacto@tecnologiasander.com</p>
+                    <p>Teléfono: +57 300 000 0000</p>
+                    <p>Dirección: Calle 75 #58-62, Bello, Antioquia.</p>
+                    <p>Horario: Lunes a Viernes, 8:00 a.m. - 6:00 p.m.</p>
+                </div>
+
+                <div class="section-card">
+                    <form>
+                        <label for="nombre">Nombre completo</label>
+                        <input id="nombre" type="text" name="nombre" placeholder="Tu nombre" required>
+
+                        <label for="correo">Correo electrónico</label>
+                        <input id="correo" type="email" name="correo" placeholder="tucorreo@ejemplo.com" required>
+
+                        <label for="telefono">Teléfono</label>
+                        <input id="telefono" type="tel" name="telefono" placeholder="+57 300 000 0000">
+
+                        <label for="asunto">Asunto</label>
+                        <select id="asunto" name="asunto">
+                            <option value="Info">Información de producto</option>
+                            <option value="Reporte">Reporte</option>
+                            <option value="Soporte">Soporte técnico</option>
+                            <option value="Garantia">Garantía</option>
+                            <option value="Otro">Otro</option>
+                        </select>
+
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí"></textarea>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary btn-submit">Enviar mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="section-card" style="margin-top:2rem;">
+                <h2>Nuestra ubicación</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d76.85838955416921!2d-75.56242281080004!3d6.351573076089396!2m3!1f5.235286699201611!2f40.27489618191394!3f0!3m2!1i1024!2i768!4f52.21166669142126!3m3!1m2!1s0x8e442fc7fbc1d4bd%3A0x7075f4639f03710c!2sCl.%2075%20%23%2058-62%2C%20Ducado%2C%20Bello%2C%20Antioquia!5e1!3m2!1ses-419!2sco!4v1781555825470!5m2!1ses-419!2sco"
+                    width="100%" height="550" style="border:0; border-radius: 1rem;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <ul class="footer-list">
+                <li><a class="footer-link" href="#">Condiciones de uso</a></li>
+                <li><a class="footer-link" href="#">Política de privacidad</a></li>
+                <li><a class="footer-link" href="#">Preguntas frecuentes</a></li>
+            </ul>
+            <div class="footer-social" aria-label="Redes sociales">
+                <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Tecnologías Ander. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/35db202371.js" crossorigin="anonymous"></script>
+</body>
+</html>

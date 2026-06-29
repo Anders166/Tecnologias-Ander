@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologías Ander | Iniciar sesión</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/Logo.png" type="image/x-icon">
+</head>
+<body>
+    <header class="site-header">
+        <div class="contenedor-header">
+            <a href="index.html" class="brand">
+                <img class="logo" src="img/Logo.png" alt="Logo Tecnologías Ander">
+            </a>
+            <nav class="menu-nav" aria-label="Menú principal">
+                <a href="index.html" class="nav-link">Principal</a>
+                <a href="productos.html" class="nav-link">Productos</a>
+                <a href="servicios.html" class="nav-link">Servicios</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="contacto.html" class="nav-link">Contacto</a>
+            </nav>
+            <div class="header-actions">
+                <a href="login.html" class="btn btn-secondary">Iniciar sesión</a>
+                <a href="signup.html" class="btn btn-primary">Registrarse</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="page-content">
+        <section class="container">
+            <div class="section-card login-card">
+                <h1 class="page-title text-center">Inicio de sesión</h1>
+                <form>
+                    <label for="usuario">Usuario</label>
+                    <input id="usuario" type="text" name="usuario" placeholder="Nombre de usuario" required>
+
+                    <label for="password">Contraseña</label>
+                    <input id="password" type="password" name="password" placeholder="Contraseña" required>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary btn-submit">Ingresar</button>
+                    </div>
+                </form>
+                <p class="section-note">¿No tienes cuenta? <a href="signup.html">Regístrate aquí</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <ul class="footer-list">
+                <li><a class="footer-link" href="#">Condiciones de uso</a></li>
+                <li><a class="footer-link" href="#">Política de privacidad</a></li>
+                <li><a class="footer-link" href="#">Preguntas frecuentes</a></li>
+            </ul>
+            <div class="footer-social" aria-label="Redes sociales">
+                <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p class="footer-copy">&copy; 2026 Tecnologías Ander. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/35db202371.js" crossorigin="anonymous"></script>
+</body>
+</html>
