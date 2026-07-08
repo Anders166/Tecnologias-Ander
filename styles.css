@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
 :root {
     --bg: #ffffff;
-    --surface: #ffffff;
+    --surface: #b2edff;
     --surface-strong: #0f2444;
     --text: #1f2937;
     --text-muted: #011d52;
@@ -190,7 +190,7 @@ button {
 .slider-container {
     overflow: hidden;
     border-radius: var(--radius);
-    background: var(--surface);
+    background: linear-gradient(180deg, #7aaee2 0%, #628ec7 100%);
     border: 1px solid var(--border);
     box-shadow: var(--shadow);
 }
@@ -229,7 +229,7 @@ button {
 }
 
 .card {
-    background: var(--surface);
+    background: linear-gradient(180deg, #7aaee2 0%, #628ec7 100%);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     box-shadow: var(--shadow);
